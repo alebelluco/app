@@ -146,7 +146,7 @@ def CQ_3(macchina, env, operatore, tc3):
 path = st.sidebar.file_uploader('Caricare il file di input')
 if path is not None:
     #input = pd.read_csv(path, sep=";")
-    input = pd.read_excel(path,engine='openpyxl')
+    input = pd.read_excel(path)#,engine='openpyxl')
 else:
     st.stop()
 
