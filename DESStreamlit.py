@@ -156,6 +156,8 @@ input['Codice']=input['Codice'].astype(str)
 st.subheader('Dati di input', divider='red')
 st.write(input)
 
+st.subheader('Configurazione isola', divider='grey')
+st.image('/Users/Alessandro/Desktop/Isola5.png')
 
 #st.divider()
 
